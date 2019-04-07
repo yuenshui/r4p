@@ -8,7 +8,17 @@ Extend the [redis](https://www.npmjs.com/package/redis) package
 Change the callback mode to promise mode, support async/await mode call, if you want to try the redis package native method at the same time, add the method name to "\_s".  
 将回调方式改为 promise 方式，支持 async/await 方式调用，如果同时想试用 redis 包原生的方法，将方法名加“\_s”即可。
 
-比如：
+安装:
+
+```bash
+npm install r4p
+```
+
+```bash
+yarn add r4p
+```
+
+使用：
 
 ```Javascript
 const config = require("./config.json");
